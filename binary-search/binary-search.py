@@ -17,7 +17,5 @@ def binary_search(list, item):
 
 t_list = [1,2,4,6,8,10,12]
 t_item = 0
-print(binary_search(t_list,t_item))
-
-
-#
+print(binary_search(t_list,t_item)) # None
+print(binary_search(t_list,6)) # 3
