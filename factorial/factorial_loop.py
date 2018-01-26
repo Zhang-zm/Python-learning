@@ -1,0 +1,1 @@
+def factorial(n):    result = 1    if n < 0:        return "Wrong."    else:        while n > 1:            result *= n            n -= 1    return resultprint(factorial(5)) # 120
