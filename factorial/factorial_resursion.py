@@ -1,0 +1,1 @@
+def factorial(num):    if num == 1:        return 1    else:        return num * factorial(num - 1)print(factorial(50)) # 30414093201713378043612608166064768844377641568960512000000000000
